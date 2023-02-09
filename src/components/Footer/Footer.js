@@ -1,6 +1,6 @@
 
-export default function Footer(){
+export default function Footer({footer_title}){
     return <footer>
-        Footer
+        {footer_title}
     </footer>
 }
